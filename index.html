@@ -2,44 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My CV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 40px;
-    }
-    .cv {
-      max-width: 800px;
-      background: white;
-      margin: auto;
-      padding: 30px;
-      border-radius: 8px;
-    }
-    h1 { margin-bottom: 5px; }
-    h2 { border-bottom: 1px solid #ddd; padding-bottom: 5px; }
-  </style>
+  <title>Mirjakhon Kobilov | CV</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="cv">
-    <h1>Your Name</h1>
-    <p><b>Position:</b> Web Developer</p>
-    <p><b>Email:</b> you@example.com</p>
+<body class="bg-gray-100 text-gray-800">
 
-    <h2>About Me</h2>
-    <p>I am a motivated developer learning web technologies.</p>
-
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML, CSS</li>
-      <li>JavaScript</li>
-      <li>GitHub</li>
-    </ul>
-
-    <h2>Experience</h2>
-    <p>Junior Developer – 2024</p>
+<!-- Hero Section -->
+<section class="bg-blue-600 text-white py-20">
+  <div class="max-w-4xl mx-auto text-center">
+    <h1 class="text-5xl font-bold mb-2">Mirjakhon Kobilov</h1>
+    <p class="text-xl mb-4">Frontend Web Developer</p>
+    <p>Passionate about creating interactive web experiences and clean code.</p>
   </div>
+</section>
+
+<!-- About Me -->
+<section class="py-16">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 border-b-2 border-blue-600 inline-block">About Me</h2>
+    <p>I am a motivated web developer with experience in building responsive and modern websites. I enjoy learning new technologies and improving my skills.</p>
+  </div>
+</section>
+
+<!-- Skills -->
+<section class="py-16 bg-gray-200">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 border-b-2 border-blue-600 inline-block">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="bg-white p-4 rounded shadow text-center">HTML</div>
+      <div class="bg-white p-4 rounded shadow text-center">CSS</div>
+      <div class="bg-white p-4 rounded shadow text-center">JavaScript</div>
+      <div class="bg-white p-4 rounded shadow text-center">TailwindCSS</div>
+      <div class="bg-white p-4 rounded shadow text-center">React</div>
+      <div class="bg-white p-4 rounded shadow text-center">Git & GitHub</div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section class="py-16">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 border-b-2 border-blue-600 inline-block">Experience</h2>
+    <div class="mb-4">
+      <h3 class="text-xl font-semibold">Junior Frontend Developer</h3>
+      <p class="text-gray-600">ABC Company, 2024 - Present</p>
+      <ul class="list-disc list-inside">
+        <li>Developed responsive web pages using HTML, CSS, and JavaScript.</li>
+        <li>Collaborated with designers to implement modern UI/UX.</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold">Intern Web Developer</h3>
+      <p class="text-gray-600">XYZ Studio, 2023 - 2024</p>
+      <ul class="list-disc list-inside">
+        <li>Assisted in creating interactive web components.</li>
+        <li>Maintained company website and fixed bugs.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Education -->
+<section class="py-16 bg-gray-200">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 border-b-2 border-blue-600 inline-block">Education</h2>
+    <div>
+      <h3 class="text-xl font-semibold">Bachelor of Computer Science</h3>
+      <p class="text-gray-600">University of Uzbekistan, 2020 - 2024</p>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="py-16">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 border-b-2 border-blue-600 inline-block">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-4 rounded shadow">
+        <h3 class="font-semibold mb-2">Portfolio Website</h3>
+        <p>A personal portfolio website showcasing projects and skills.</p>
+        <a href="#" class="text-blue-600 hover:underline">View Project</a>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <h3 class="font-semibold mb-2">Todo App</h3>
+        <p>A simple JavaScript todo application with local storage support.</p>
+        <a href="#" class="text-blue-600 hover:underline">View Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="py-16 bg-gray-200">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 border-b-2 border-blue-600 inline-block">Contact</h2>
+    <p>Email: <a href="mailto:mirjakhon@example.com" class="text-blue-600 hover:underline">mirjakhon@example.com</a></p>
+    <p>Phone: +998 90 123 45 67</p>
+    <p>LinkedIn: <a href="#" class="text-blue-600 hover:underline">linkedin.com/in/mirjakhon</a></p>
+    <p>GitHub: <a href="https://github.com/mirjakhon17" class="text-blue-600 hover:underline">github.com/mirjakhon17</a></p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-blue-600 text-white text-center py-6">
+  &copy; 2026 Mirjakhon Kobilov. All rights reserved.
+</footer>
+
 </body>
 </html>
